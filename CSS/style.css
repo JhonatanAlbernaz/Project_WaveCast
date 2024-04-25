@@ -73,6 +73,14 @@
     margin-top: 115px;
 }
 
+.secao-titulo-2 {
+    font-weight: 700;
+    font-size: 1.35rem;
+    user-select: none;
+    color: white;
+    margin-top: 35px;
+}
+
 .cartao {
     overflow: hidden;
     display: grid;
@@ -107,6 +115,26 @@
 .play-podcast {
     margin-top: 13px;
     margin-right: 10px;
+}
+
+.secao-cartoes {
+    display: grid;
+    grid-auto-flow: column;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    column-gap: 1.25rem;
+}
+
+.div-cartoes {
+    padding: 1rem;
+    background: rgba(196, 196, 196, 0.2);
+    border-radius: .5rem;
+}
+
+.cartao-imagems {
+    height: 9.75rem;
+    margin-bottom: .5rem;
+    object-fit: contain;
 }
 
 /*Responsive*/
