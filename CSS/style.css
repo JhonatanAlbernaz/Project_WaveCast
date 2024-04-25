@@ -59,10 +59,15 @@
     padding-left: 2.5rem;
     padding-right: 2.5rem;
     margin-bottom: 3.43rem;
-    height: 1000px;
+    height: 1800px;
     width: 85%;
     background: #041833;
     margin-left: 228px;
+}
+
+.espacamento-body {
+    height: 1800px;
+    background-color: #041833;
 }
 
 .secao-titulo {
@@ -78,7 +83,7 @@
     font-size: 1.35rem;
     user-select: none;
     color: white;
-    margin-top: 35px;
+    margin-top: 65px;
 }
 
 .cartao {
@@ -123,6 +128,8 @@
     overflow-x: scroll;
     overflow-y: hidden;
     column-gap: 1.25rem;
+    margin-top: 25px;
+    padding-bottom: 20px;
 }
 
 .div-cartoes {
@@ -135,6 +142,20 @@
     height: 9.75rem;
     margin-bottom: .5rem;
     object-fit: contain;
+}
+
+.cartao-titulo-imagens {
+    font-weight: 700;
+    line-height: 1.35rem;
+    color: white;
+    font-size: 16px;
+    padding-top: 18px;
+}
+
+.cartao-subtitulo-imagens {
+    margin-top: .75rem;
+    color: white;
+    font-size: 14px;
 }
 
 /*Responsive*/
