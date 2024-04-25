@@ -55,6 +55,60 @@
     display: none;
 }
 
+.espacamento-main {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    margin-bottom: 3.43rem;
+    height: 1000px;
+    width: 85%;
+    background: #041833;
+    margin-left: 228px;
+}
+
+.secao-titulo {
+    font-weight: 700;
+    font-size: 1.35rem;
+    user-select: none;
+    color: white;
+    margin-top: 115px;
+}
+
+.cartao {
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    column-gap: 1.25rem;
+    background: rgba(196, 196, 196, 0.2);
+    border-radius: .5rem;
+    margin-top: 20px;
+}
+
+.cartao-imagem {
+    height: 4.58rem;
+}
+
+.cartao-titulo {
+    font-weight: 700;
+    line-height: 1.35rem;
+    color: white;
+    font-size: 16px;
+    margin-top: 12px;
+}
+
+.cartao-play {
+    width: 10.25rem;
+    height: 0.25rem;
+    background: white;
+    border-radius: .5rem;
+    margin: 60px 0px 0px 92px;
+    position: absolute;
+}
+
+.play-podcast {
+    margin-top: 13px;
+    margin-right: 10px;
+}
+
 /*Responsive*/
 
 @media (max-width: 320px) {
@@ -111,6 +165,43 @@
         color: white;
         text-align: center;
         width: 35%;
+    }
+
+    .espacamento-main {
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
+        margin-bottom: 3.43rem;
+        height: 1000px;
+        width: 100%;
+        background: #041833;
+        margin-left: 0px;
+    }
+
+    .secao-titulo {
+        font-weight: 700;
+        font-size: 1.35rem;
+        user-select: none;
+        color: white;
+        margin-top: 75px;
+    }
+
+    .espacamento-main {
+        padding-left: 0rem;
+        padding-right: 0rem;
+        margin-bottom: 3.43rem;
+        height: 1000px;
+        width: 100%;
+        background: #041833;
+        margin-left: 0px;
+    }
+
+    .cartao-play {
+        width: 8.25rem;
+        height: 0.25rem;
+        background: white;
+        border-radius: .5rem;
+        margin: 60px 0px 0px 92px;
+        position: absolute;
     }
 
 }
@@ -171,6 +262,43 @@
         width: 35%;
     }
 
+    .espacamento-main {
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
+        margin-bottom: 3.43rem;
+        height: 1000px;
+        width: 100%;
+        background: #041833;
+        margin-left: 0px;
+    }
+
+    .secao-titulo {
+        font-weight: 700;
+        font-size: 1.35rem;
+        user-select: none;
+        color: white;
+        margin-top: 75px;
+    }
+
+    .espacamento-main {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        margin-bottom: 3.43rem;
+        height: 1000px;
+        width: 100%;
+        background: #041833;
+        margin-left: 0px;
+    }
+
+    .cartao-play {
+        width: 9.25rem;
+        height: 0.25rem;
+        background: white;
+        border-radius: .5rem;
+        margin: 60px 0px 0px 92px;
+        position: absolute;
+    }
+
 }
 
 @media (min-width:  377px) and (max-width: 576px) {
@@ -227,6 +355,24 @@
         color: white;
         text-align: center;
         width: 35%;
+    }
+
+    .espacamento-main {
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
+        margin-bottom: 3.43rem;
+        height: 1000px;
+        width: 100%;
+        background: #041833;
+        margin-left: 0px;
+    }
+
+    .secao-titulo {
+        font-weight: 700;
+        font-size: 1.35rem;
+        user-select: none;
+        color: white;
+        margin-top: 75px;
     }
 
 }
@@ -287,12 +433,57 @@
         width: 35%;
     }
 
+    .espacamento-main {
+        padding-left: 2.5rem;
+        padding-right: 2.5rem;
+        margin-bottom: 3.43rem;
+        height: 1000px;
+        width: 100%;
+        background: #041833;
+        margin-left: 0px;
+    }
+
+    .secao-titulo {
+        font-weight: 700;
+        font-size: 1.35rem;
+        user-select: none;
+        color: white;
+        margin-top: 75px;
+    }
+
 }
   
 @media (min-width: 993px) and (max-width: 1200px) {
 
     .menu-lateral-bottom {
         display: none;
+    }
+
+    .espacamento-main {
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+        margin-bottom: 3.43rem;
+        height: 1000px;
+        width: 85%;
+        background: #041833;
+        margin-left: 227px;
+    }
+
+    .cartao-titulo {
+        font-weight: 700;
+        line-height: 1.35rem;
+        color: white;
+        font-size: 13px;
+        margin-top: 12px;
+    }
+
+    .cartao-play {
+        width: 6.25rem;
+        height: 0.25rem;
+        background: white;
+        border-radius: .5rem;
+        margin: 60px 0px 0px 92px;
+        position: absolute;
     }
 
 }
